@@ -1,0 +1,148 @@
+// Place all the styles related to the test controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.codelion{
+background-image:url(/assets/home_background.jpg);
+background-position:cover;
+	}
+
+@media only screen and (min-device-width : 0px){
+	
+/* Styles */
+.phon1{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%; 
+	height:100px;
+	background-color:yellow;
+}
+.phon2{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:green;
+	height:100px;
+}
+.phon3{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:red;
+	height:100px;
+}
+}
+@media only screen and (min-width : 321px) {
+/* Styles */
+	
+.sm_phon1{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	height:100px;
+	background-color:yellow; 
+}
+.sm_phon2{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:green;
+	height:100px;
+}
+.sm_phon3{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:red;
+	height:100px;
+}
+}
+@media only screen and (min-width : 768px) {
+
+
+
+.ipad2{
+	width:48%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:green;
+	height:100px;
+	float:left;
+
+}
+.ipad3{
+	width:48%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:red;
+	height:100px;
+	float:left;
+}
+.ipad1{
+	width:48%;
+	margin-left:1%;
+	margin-right:1%;
+	height:100px;
+	background-color:yellow;
+	float:left; 
+}
+
+}
+
+@media only screen and (min-width : 1224px) {
+
+
+
+.laptop1{
+	width:30%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:green;
+	height:100px;
+	float:left;
+}
+.laptop2{
+	width:30%;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:red;
+	height:100px;
+	float:left;
+}
+.laptop3{
+	width:30%;
+	margin-left:1%;
+	margin-right:1%;
+	height:100px;
+	background-color:yellow;
+	float:left; 
+}
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+
+
+.desktop1{
+	width:33.33333%;
+	background-color:green;
+	height:100px;
+	float:left;
+}
+.desktop2{
+	width:33.33333%;
+	background-color:red;
+	height:100px;
+	float:left;
+}
+.desktop3{
+	width:33.33333%;
+	height:100px;
+	background-color:yellow;
+	float:left; 
+}
+
+}
+
+
+

@@ -2,6 +2,7 @@ Responsive::Application.routes.draw do
   get "design/test1"
   get "design/test2"
   get "design/test3"
+  get "test/design"
   get "test/index"
   get "test/output"
   # The priority is based upon order of creation: first created -> highest priority.
